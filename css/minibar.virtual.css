@@ -1,0 +1,62 @@
+/* Filterable button */
+.filterable-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.filterable-button .btn {
+    padding: 5px 16px;
+    margin: 6px;
+    font-size: 14px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #747474;
+    box-shadow: 0 0 0 2px #747474;
+    font-weight: bold;
+}
+
+.filterable-button .btn:hover {
+    background-color: #747474;
+    color: #fff;
+}
+
+.filterable-button .btn.selected,
+.filterable-button .btn:focus {
+    background-color: #747474;
+    color: #fff;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #747474;
+}
+
+/* Testimonial */
+
+/* Timeline */
+
+
+/* Page Style */
+.vg-page {
+    position: relative;
+    padding: 70px 16px;
+    color: #858B91;
+    z-index: 10;
+    overflow: hidden;
+}
+
+/* About */
+
+/* Services */
+.page-service {
+    background-color: #171925;
+    color: #9FA2AB;
+}
+
+.page-service .card {
+    margin: 32px 0;
+    background-color: #202334;
+}

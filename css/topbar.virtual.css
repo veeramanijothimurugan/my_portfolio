@@ -1,0 +1,111 @@
+.badge-subhead {
+    margin-bottom: 8px;
+    padding: 10px 30px;
+    background-color: rgba(116, 116, 116, 0.15);
+    color: #ffaa00;
+    font-size: 2rem;
+    border-radius: 40px;
+}
+
+
+/* Filterable button */
+
+.filterable-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.filterable-button .btn {
+    padding: 5px 16px;
+    margin: 6px;
+    font-size: 14px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #ffaa00;
+    box-shadow: 0 0 0 2px #ffaa00;
+    font-weight: bold;
+}
+
+.filterable-button .btn:hover {
+    background-color: #ffaa00;
+    color: #3e3a3a;
+}
+
+.filterable-button .btn.selected,
+.filterable-button .btn:focus {
+    background-color: #ffaa00;
+    color: #3e3a3a;
+    box-shadow: 0 0 0 2px #3e3a3a, 0 0 0 4px #747474;
+}
+
+
+/* Page */
+
+.vg-page {
+    position: relative;
+    display: block;
+    padding: 40px 0 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-service {
+    background-color: #3e3a3a;
+}
+
+.card-service {
+    margin: 16px auto;
+    padding: 20px;
+    background-color: #3e3a3a;
+    border: 0;
+}
+
+.card-service:hover {
+    background-color: #3e3a3a;
+}
+
+.card-service .icon {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 50%;
+    background-color: #3e3a3a;
+}
+
+.card-service .caption {
+    margin-top: 16px;
+    text-align: center;
+    color: #747474;
+}
+
+
+/* Footer */
+
+
+/* Theme color style */
+
+
+/* Theme Red */
+
+
+/* Theme Blue */
+
+
+/* Theme Green */
+
+
+/* Theme Orange */
+
+
+/* Theme Purple */
